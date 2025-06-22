@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ColorPrint Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎨 ColorPrint Studio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Your One-Stop Print Solution</h2>
+    <p>We print everything from business cards to billboards — fast, colorful, and affordable.</p>
+    <a href="#contact" class="button">Request a Quote</a>
+  </section>
+
+  <section id="services">
+    <h2>Our Printing Services</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Business Cards</h3>
+        <p>High-quality, custom-designed cards to promote your brand.</p>
+      </div>
+      <div class="service-card">
+        <h3>Flyers & Brochures</h3>
+        <p>Full-color promotional materials for marketing events or offers.</p>
+      </div>
+      <div class="service-card">
+        <h3>T-Shirt Printing</h3>
+        <p>Customized garments for individuals, teams, or companies.</p>
+      </div>
+      <div class="service-card">
+        <h3>Large Format Banners</h3>
+        <p>Eye-catching vinyl and fabric banners for indoor/outdoor use.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>See samples of our recent print work</p>
+    <img src="banner-sample.jpg" alt="Banner Sample" style="width:80%; max-width:500px;">
+    <!-- You can replace with real images -->
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@colorprint.lk | Phone: 071-1234567</p>
+    <p>Location: 123 Galle Road, Colombo, Sri Lanka</p>
+    <p>Follow us on Facebook & Instagram @colorprint.lk</p>
+    <p>© 2025 ColorPrint Studio</p>
+  </footer>
+</body>
+</html>
